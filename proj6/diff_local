@@ -1,0 +1,7 @@
+      64	   8	   8388608	     2.997 GigaMultsPerSecond
+      64	  16	   4194304	     5.669 GigaMultsPerSecond
+      64	  32	   2097152	    10.348 GigaMultsPerSecond
+      64	  64	   1048576	    14.903 GigaMultsPerSecond
+      64	 128	    524288	    16.428 GigaMultsPerSecond
+      64	 256	    262144	    17.336 GigaMultsPerSecond
+      64	 512	    131072	    16.832 GigaMultsPerSecond

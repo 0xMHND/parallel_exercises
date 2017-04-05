@@ -1,0 +1,11 @@
+#!/bin/csh
+rm -f NON_SIMD_avg NON_SIMD_max SIMD_avg SIMD_max
+rm -f NON_SIMD_RED_avg NON_SIMD_RED_max SIMD_RED_avg SIMD_RED_max
+rm -f NoRed_speedup RED_speedup
+foreach s (1 8 64 512 4096 32768)
+	gcc -DNUM=$s proj5.c -o proj -lm -fopenmp -std=c99 -O0
+	./proj
+	rm proj
+end
+#gcc visualize.c -o vis -std=c99 
+#./vis

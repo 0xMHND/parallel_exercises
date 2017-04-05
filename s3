@@ -1,0 +1,16 @@
+#!/bin/csh
+
+rm -f results11 results22 results44 results88
+rm -f results1 results2 results4 results8
+#number of threads:
+foreach t ( 1 2 4 8 )
+	foreach m (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16)
+		gcc -DNUMT=$t -DNUM=$m proj3_fix1.c -o proj1 -lm -fopenmp -std=c99 -O0
+		gcc -DNUMT=$t -DNUM=$m proj3_fix2.c -o proj2 -lm -fopenmp -std=c99 -O0
+		./proj1
+		./proj2
+	end
+end
+gcc visualize.c -o vis -std=c99 
+./vis
+rm proj1 proj2

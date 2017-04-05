@@ -1,0 +1,8 @@
+#!/bin/csh
+
+#number of threads:
+foreach t (1 64 128 256 512 1024 2048 4096 8192)
+#foreach t (8 16 32 64 128 256 512)
+	icpc -DNMB=$t -o proj proj6.cpp -no-vec /scratch/cuda-7.0/lib64/libOpenCL.so -lm -openmp
+	./proj
+end

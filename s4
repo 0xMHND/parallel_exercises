@@ -1,0 +1,10 @@
+#!/bin/csh
+
+rm -f Height Deer Precip Temp Locusts
+#number of threads:
+gcc proj4.c -o proj -lm -fopenmp -std=c99 -O0
+./proj
+
+#gcc visualize.c -o vis -std=c99 
+#./vis
+rm proj

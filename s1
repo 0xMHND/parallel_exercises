@@ -1,0 +1,9 @@
+#!/bin/csh
+
+#number of threads:
+foreach s (100 1000 10000)
+   foreach t (1 4 8 16 32)
+	   gcc -DNUMT=$t -DNUMS=$s proj1.c -o proj -lm -fopenmp -std=c99
+	   ./proj
+   end
+end

@@ -1,0 +1,26 @@
+\documentclass[draftclsnofoot,onecolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{geometry}
+ \geometry{
+ letterpaper,
+ margin=0.75in,
+ }
+
+\begin{document}
+
+\title{CS344 - Weekly Summary}
+\author{Mohannad Alarifi - spring 2016}
+\maketitle
+\section*{Week 8}
+In the eleventh and sixteenth chapters of the book, "Linux Kernel Development"(2010)\cite{Love:2010:LKD:1855096}, Robert Love asserts
+the importance of keeping both wall time and uptime for the kernel to work proporely and also the importance of page caches for better performance.
+%In a single coherent sentence give an explanation of how the author develops and supports the major claim (thesis statement).
+The author explaines how the kernel manages wall time and uptime and some kernel's time concepts suhc as "jiffies", also he explained the wirte-back process for managing the page cache.
+%In a single coherent sentence give a statement of the author's purpose, followed by an "in order" phrase.
+Love's purpose is to help kernel's code writers utilizing the time tools availabe in the kernel in order to use it effectively in their code, also to keep in mind the cache local/temporal coherence for better performance. 
+%In a single coherent sentence give a description of the intended audience and/or the relationship the author establishes with the audience.
+From the technical language and thorough details in the chapters, Love is setting up a proper environment for computer enthusiasts with programmimg basics background to deal with the linux kernel and understand its internal structure. 
+\bibliography{a}{}
+\bibliographystyle{plain}
+\end{document}
+

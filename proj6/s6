@@ -1,0 +1,4 @@
+#!/bin/csh
+gcc proj6.c -o proj ./libOpenCL.so -lm -fopenmp
+
+

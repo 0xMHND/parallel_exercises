@@ -1,0 +1,10 @@
+     NMB (KB)  local_size
+       1	  64	        16	     0.017 GigaMultsPerSecond
+      64	  64	      1024	     1.074 GigaMultsPerSecond
+     128	  64	      2048	     0.535 GigaMultsPerSecond
+     256	  64	      4096	     0.923 GigaMultsPerSecond
+     512	  64	      8192	     1.826 GigaMultsPerSecond
+    1024	  64	     16384	     3.474 GigaMultsPerSecond
+    2048	  64	     32768	     5.730 GigaMultsPerSecond
+    4096	  64	     65536	     7.426 GigaMultsPerSecond
+    8192	  64	    131072	    10.318 GigaMultsPerSecond

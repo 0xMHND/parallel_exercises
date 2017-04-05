@@ -1,0 +1,10 @@
+       1	  64	        16	     0.018 GigaMultsPerSecond
+      64	  64	      1024	     0.873 GigaMultsPerSecond
+     128	  64	      2048	     1.617 GigaMultsPerSecond
+     256	  64	      4096	     1.202 GigaMultsPerSecond
+     512	  64	      8192	     1.747 GigaMultsPerSecond
+    1024	  64	     16384	     3.265 GigaMultsPerSecond
+    2048	  64	     32768	     4.342 GigaMultsPerSecond
+    4096	  64	     65536	     5.850 GigaMultsPerSecond
+    8192	  64	    131072	     8.755 GigaMultsPerSecond
+
